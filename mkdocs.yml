@@ -1,0 +1,9 @@
+site_name: DevOps Docs Automation Demo
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - Setup Guide: setup-guide.md
+  - FAQ: faq.md

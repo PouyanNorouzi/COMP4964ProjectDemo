@@ -193,7 +193,7 @@ mkdocs gh-deploy
    ```
 
 2. Add content to the file:
-   ```markdown
+   ```md
    # New Page Title
    
    Your content here...

@@ -188,18 +188,21 @@ mkdocs gh-deploy
 ### Adding New Pages
 
 1. Create a new `.md` file in the `/docs` directory:
+   
    ```bash
    touch docs/new-page.md
    ```
 
 2. Add content to the file:
-   ```md
+   
+   ```markdown
    # New Page Title
    
    Your content here...
    ```
 
 3. Update `mkdocs.yml` navigation:
+   
    ```yaml
    nav:
      - Home: index.md

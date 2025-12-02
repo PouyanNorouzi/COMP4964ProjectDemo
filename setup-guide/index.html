@@ -1364,36 +1364,29 @@ mkdocs gh-deploy
 </code></pre>
 <h3 id="adding-new-pages">Adding New Pages</h3>
 <ol>
-<li>
-<p>Create a new <code>.md</code> file in the <code>/docs</code> directory:
-   <code>bash
-   touch docs/new-page.md</code></p>
-</li>
-<li>
-<p>Add content to the file:
-   ```md
-   # New Page Title</p>
-</li>
+<li>Create a new <code>.md</code> file in the <code>/docs</code> directory:</li>
 </ol>
+<p><code>bash
+   touch docs/new-page.md</code></p>
+<ol>
+<li>Add content to the file:</li>
+</ol>
+<p>```markdown
+   # New Page Title</p>
 <p>Your content here...
    ```</p>
 <ol>
-<li>
-<p>Update <code>mkdocs.yml</code> navigation:
-   ```yaml
-   nav:</p>
-<ul>
-<li>Home: index.md</li>
-<li>Introduction: introduction.md</li>
-<li>Setup Guide: setup-guide.md</li>
-<li>New Page: new-page.md</li>
-<li>FAQ: faq.md
-   ```</li>
-</ul>
-</li>
-<li>
-<p>Save and the page appears immediately in local server!</p>
-</li>
+<li>Update <code>mkdocs.yml</code> navigation:</li>
+</ol>
+<p><code>yaml
+   nav:
+     - Home: index.md
+     - Introduction: introduction.md
+     - Setup Guide: setup-guide.md
+     - New Page: new-page.md
+     - FAQ: faq.md</code></p>
+<ol>
+<li>Save and the page appears immediately in local server!</li>
 </ol>
 <hr />
 <h2 id="customizing-the-theme">🎨 Customizing the Theme</h2>

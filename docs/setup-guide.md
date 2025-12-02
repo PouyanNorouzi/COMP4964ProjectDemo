@@ -9,3 +9,4 @@ Make sure you have Python 3 installed.
 You can check with:
 ```bash
 python3 --version
+```
